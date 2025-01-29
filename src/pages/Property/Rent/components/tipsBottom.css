@@ -1,0 +1,43 @@
+.tips-bottom {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .tips-bottom-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    .button-section {
+      display: flex;
+      gap: 20px;
+      margin-left: 20px;
+    }
+    .text {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h6 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 33px;
+        color: #47474f;
+      }
+
+      p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        color: #47474f;
+      }
+    }
+  }
+}

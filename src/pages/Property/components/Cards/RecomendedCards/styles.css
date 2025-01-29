@@ -1,0 +1,16 @@
+.recomended-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  /* border: 1px solid yellow; */
+  margin: 40px 0px;
+  h1 {
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+}

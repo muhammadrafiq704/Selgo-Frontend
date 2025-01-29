@@ -1,0 +1,11 @@
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    font-family: inter;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+}

@@ -1,0 +1,34 @@
+.image-section-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+  .image {
+    width: 632px;
+    height: 570px;
+    border-radius: 10px;
+  }
+
+  .img-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+
+    .tips-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 478px;
+      height: 404px;
+      padding: 0px 40px;
+      border-radius: 10px;
+      background-color: #f0f0f2;
+      color: #47474f;
+
+      ol {
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

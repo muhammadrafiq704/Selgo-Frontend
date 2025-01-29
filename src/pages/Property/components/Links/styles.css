@@ -1,0 +1,25 @@
+.links {
+  width: 90vw;
+  height: 134px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+  gap: 20px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+
+  a {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-decoration: none;
+    color: #464646;
+    padding: 10px 20px;
+    &:hover {
+      color: #0b9e9e;
+    }
+  }
+}
