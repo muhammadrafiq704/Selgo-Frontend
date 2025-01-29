@@ -31,24 +31,22 @@ const routes = [
         // index: true,
         path: appPaths.HOME,
         element: <Home />,
+        sub_child: [],
       },
       {
         path: appPaths.TARGET,
         element: <Target />,
-        // sub_child: [
-        //   {
-        //     path: appPaths.TARGETPATH,
-        //     element: <CardPage />
-        //   },
-        // ]
+        sub_child: [],
       },
       {
         path: appPaths.TARGETPATH,
         element: <CardPage />,
+        sub_child: [],
       },
       {
         path: appPaths.SINGLECARD,
         element: <SingleCard />,
+        sub_child: [],
       },
       {
         path: appPaths.PROPERTY,
@@ -77,32 +75,39 @@ const routes = [
       {
         path: appPaths.PLOTS,
         element: <Plots />,
+        sub_child: [],
       },
       {
         path: appPaths.ResidenceAbroad,
         element: <ResidenceAbroad />,
+        sub_child: [],
       },
       {
         path: appPaths.HousingForSale,
         element: <HousingForSale />,
-      },
+        sub_child: [],
+      }, 
       {
         path: appPaths.NewHomes,
         element: <NewHomes />,
+        sub_child: [],
       },
       {
         path: appPaths.VacationHomes,
         element: <VacationHomes />,
+        sub_child: [],
       },
       {
         path: appPaths.LeisurePlots,
         element: <LeisurePlots />,
+        sub_child: [],
       },
 
       // Notification Routes
       {
         path: appPaths.ADVERTISE,
         element: <Advertise />,
+        sub_child: [],
       },
       {
         path: appPaths.NOTIFICATION,
@@ -134,10 +139,12 @@ const routes = [
       {
         path: "signin",
         element: <SignIn />,
+        sub_child: [],
       },
       {
         path: "signup",
         element: <SignOut />,
+        sub_child: [],
       },
     ],
     // <PublicRoute element={
@@ -146,6 +153,7 @@ const routes = [
   {
     path: "*",
     element: <NotFound />,
+    sub_child: [],
   },
 ];
 

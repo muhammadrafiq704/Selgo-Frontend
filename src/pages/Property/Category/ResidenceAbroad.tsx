@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const ResidenceAbroad = () => {
-  return (
-    <div>ResidenceAbroad</div>
-  )
-}
+const ResidenceAbroad: React.FC = () => {
+  return <div>ResidenceAbroad</div>;
+};
 
-export default ResidenceAbroad
+export default ResidenceAbroad;

@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const LeisurePlots = () => {
-  return (
-    <div>LeisurePlots</div>
-  )
-}
+const LeisurePlots: React.FC = () => {
+  return <div>LeisurePlots</div>;
+};
 
-export default LeisurePlots
+export default LeisurePlots;

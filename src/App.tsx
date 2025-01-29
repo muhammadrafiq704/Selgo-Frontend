@@ -27,7 +27,7 @@ function App() {
                   path={child.path}
                   element={child.element}
                 >
-                  {child.sub_child?.map((subChild, index) => (
+                  {child?.sub_child?.map((subChild, index) => (
                     <Route
                       index
                       key={index}
